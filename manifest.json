@@ -1,0 +1,31 @@
+{
+  "name": "Custom Line Chart",
+  "description": "A custom line chart showing pressure and temperature.",
+  "version": "1.0",
+  "author": "Jack Bakana",
+  "javascript": [
+      "https://raw.githubusercontent.com/BakanaJ002/Line_Chart/main/line_chart.js"
+  ],
+  "css": [
+      "https://raw.githubusercontent.com/BakanaJ002/Line_Chart/main/line_chart.css"
+  ],
+  "data": {
+      "schema": [
+          {
+              "name": "date",
+              "label": "Date",
+              "type": "DIMENSION"
+          },
+          {
+              "name": "pressure",
+              "label": "Pressure",
+              "type": "METRIC"
+          },
+          {
+              "name": "temperature",
+              "label": "Temperature",
+              "type": "METRIC"
+          }
+      ]
+  }
+}

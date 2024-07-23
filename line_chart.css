@@ -1,0 +1,39 @@
+/* Basic styles for the custom line chart */
+
+/* Style for the lines in the chart */
+.line {
+  fill: none;
+  stroke-width: 2px;
+}
+
+/* Style for the pressure line */
+.line.pressure {
+  stroke: steelblue;
+}
+
+/* Style for the temperature line */
+.line.temperature {
+  stroke: red;
+}
+
+/* Axis styles */
+.axis path,
+.axis line {
+  fill: none;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+/* Grid lines */
+.grid path {
+  stroke: lightgrey;
+  stroke-width: 0.5px;
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-width: 0.5px;
+}
